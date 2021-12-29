@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul > li, a {
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.logo-img {
+    height: 4.5rem;
+    cursor: pointer;
+    margin: 0;
+}
+
+.logo-img:hover {
+    -webkit-filter: drop-shadow(2px 2px 5px #811904 );
+    filter: drop-shadow(2px 2px 5px #811904);
+    transition: 0.3s ease-out;
+}
+
+
+nav{
+    background-color: #837777;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+}
+
+
+.nav-items > li:hover {
+    background-color: #685e5e;
+    transition: 0.2s ease-in;
+}
+
+
+
+
+.hero{
+    background-color: #837777;
+}
+.hero-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+.head-line > p {
+    font-size: large;
+}
+
+.head-line-title {
+    margin: 1rem 0;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.btn-hero{
+    padding: 0.5rem 1.75rem;
+    margin: 1rem 0;
+    background-color: #e79b2b;
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    font-size: medium;
+    
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: #c78624;
+    transition: 0.3s ease-in;
+}
+
+.hero-img {
+    width: 30rem;
+}
+
+
+.skill-info-container {
+    margin: 1rem 0;
+}
+.skill-info-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.skill {
+    width: 15.25rem;
+}
+
+.skill-img {
+    height: 15rem;
+    border: 10px solid #E79B2B;
+    border-radius: 0.75rem;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: large;
+    margin: 0.5rem 0;
+}
+
+.skill-name, .skill-info {
+    text-align: center;
+}
