@@ -10,6 +10,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -33,7 +35,7 @@ ul > li, a {
 }
 
 
-nav{
+nav, .footer{
     background-color: #837777;
 }
 
@@ -102,7 +104,7 @@ nav{
 
 
 .skill-info-container {
-    margin: 1rem 0;
+    margin: 4rem 0;
 }
 .skill-info-title {
     text-align: center;
@@ -134,4 +136,66 @@ nav{
 
 .skill-name, .skill-info {
     text-align: center;
+}
+
+
+.quote-container {
+    background-color: #d4d4d4;
+    margin: 4rem 0;
+    padding: 4rem 0;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+.sign-up {
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #E79B2B;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up-header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn-sign-up {
+    border: 1px solid #ffffffff;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #E79B2B;
+}
+
+.btn-sign-up:hover{
+    background-color: #ffffff;
+    transition: 0.3s ease;
+}
+
+
+.footer {
+    margin-top: 2rem;
+    min-height: -50px;
+    padding: 1rem;
+    text-align: center;
+}
+.nav {
+    min-height: -50px;
+}
+
+.footer .container {
+    color: #ffffff;
 }
